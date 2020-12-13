@@ -1,0 +1,392 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#custom-navbar {
+  background-color: #ff4c68;
+  height: 70px;
+  padding: 20px 20px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 0px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 768px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #custom-navbar {
+    padding: 0px 18px;
+    height: auto;
+  }
+
+  .hero-text#count-people-1 {
+    margin-left: -200px;
+  }
+
+  .hero-text#count-people-2 {
+    margin-left: -200px;
+  }
+
+
+
+  /* .carousel-caption .row {
+    text-align: center;
+    margin-top: -103px;
+    
+  }
+
+  .carousel-caption .row figcaption {
+    font-size: 26px;
+    background-color: blue;
+  }
+
+  .carousel-caption img {
+    height: 150px;
+  } */
+
+  .colored-section .roundCircle {
+    padding-bottom: 7%;
+  }
+
+  .our-portfolio{
+    margin-bottom: 67px;
+  }
+
+
+}
+
+
+/* zak */
+
+.hero-text {
+  text-align: center;
+  top: 13%;
+  left: 72%;
+  position: absolute;
+}
+
+.hero-text#count-people-1 h1 {
+  font-family: 'Dancing Script', cursive;
+  line-height: 1em;
+  margin: 0 0 20px 0;
+}
+
+.hero-text p {
+  font-weight: 300 !important;
+  font-size: 1.56em;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.2;
+  color: olivedrab;
+}
+
+.hero-text#count-people-2 {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: white;
+  position: absolute;
+}
+
+/* .carousel-item .carousel-caption {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} */
+
+.center-outer {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.center-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Essential CSS - Makes the effect work */
+
+.bubbles {
+  display: inline-block;
+  font-family: arial;
+  position: relative;
+}
+
+.bubbles h1 {
+  position: relative;
+  margin: 1em 0 0;
+  font-family: 'Luckiest Guy', cursive;
+  color: #fff;
+  z-index: 2;
+}
+
+.individual-bubble {
+  position: absolute;
+  border-radius: 100%;
+  bottom: 10px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.our-portfolio .designer-heading h1 {
+  font-family: 'Dancing Script', cursive;
+  line-height: 1em;
+  margin: 47px 0 -87px 0px;
+}
+
+.our-portfolio .designer-heading h1 span {
+
+  color: #de037f;
+
+}
+
+.our-portfolio .designer-heading-2 {
+  margin-top: -59px;
+  margin-left: 268px;
+}
+
+.our-portfolio .designer-heading-2 h3 {
+  border: 1px pink solid;
+  border-radius: 34%;
+  padding: 6px;
+  color: #fff;
+  font-family: 'Montserrat-Bold';
+  background: #40E0D0;
+  background: -webkit-linear-gradient(to right, #FF0080,
+      #FF8C00, #40E0D0);
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+}
+
+.our-portfolio #portfolio-special-text {
+  color: #fff;
+  font-family: 'Montserrat-Bold';
+  background: #40E0D0;
+  background: -webkit-linear-gradient(to right, #FF0080,
+      #FF8C00, #40E0D0);
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+  border: 1px #fff solid;
+  border-radius: 55px;
+  margin: -71px 0 -88px 0;
+  font-size: 23px;
+  padding: 11px 0 7px 1px;
+}
+
+.our-portfolio-magnific{
+  margin-top: 40px;
+}
+
+/* shining-effect */
+
+.shining-effect {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  background-color: #ff4c68;
+}
+
+.shining-effect h6 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+      background-position: -500%;
+  }
+
+  100% {
+      background-position: 500%;
+  }
+}
+
+/* end shinign effect */

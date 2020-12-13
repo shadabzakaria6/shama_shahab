@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Luckiest+Guy&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/gallery.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+  <style>
+    .items-container_magnific {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .items_magnific {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      margin: 5px;
+
+    }
+
+    .items_magnific img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+    /* waivy text style */
+    .waviy {
+      position: relative;
+    }
+
+    .waviy span {
+      position: relative;
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-family: monospace;
+      color: #8e516f;
+      background-color: #fff;
+      /* text-transform: uppercase; */
+      animation: flip 2s infinite;
+      animation-delay: calc(.2s * var(--i))
+    }
+
+    @keyframes flip {
+
+      0%,
+      80% {
+        transform: rotateY(360deg)
+      }
+    }
+
+    /* end waivy text style  */
+  </style>
+
+
+  <title>Love</title>
+  <!-- add icon link -->
+  <link rel="icon" href="images/logo-title.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- data-ride="carousel" -->
+  <div id="demo" class="carousel slide" data-ride="carousel" data-interval="2500">
+    <ul class="carousel-indicators" style="visibility:visible">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images/gallery/saheb_resized.jpg" alt="Los Angeles" width="1100" height="500"
+          style="width: 100%;height: 100%;">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col-lg-12">
+              <!-- <h1 style="font-family: 'Dancing Script', cursive;line-height: 1em;"><span
+                  style="color: black;">W</span>edding </h1>
+              <h1 style="font-family: 'Dancing Script', cursive;line-height: 1em;color: black;" id="carousel-date">25. Nov. 2020</h1> -->
+              <!-- <img src="images/flouring-swirls-ornament-decoration.png" alt=""> -->
+              <!-- <img src="images/design-12.png" id="testdesign" alt="" style="width: 322px;
+              height: 170px;
+              margin-top: -130px;"> -->
+
+              <figure>
+                <figcaption style="color: #de037f;background: black;background-color: rgba(0, 0, 0, 0.7);
+                  font-size: 30px;
+                  font-family: serif;">
+                  <span>Wedding</span>
+                  <br />
+                  <span>25. Nov. 2020 </span>
+                </figcaption>
+              </figure>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/gallery/4.jpg" alt="Chicago" width="1100" height="500" style="width: 100%;height: 100%;">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col-lg-12">
+              <figure>
+                <figcaption style="color: #de037f;background: black;background-color: rgba(0, 0, 0, 0.7);
+                  font-size: 30px;
+                  font-family: serif;
+                  margin-top: 40%;">
+                  <span>Wedding</span>
+                  <br />
+                  <span>25. Nov. 2020 </span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/gallery/3.png" alt="New York" width="1100" height="500" style="width: 100%;height: 100%;">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col-lg-12">
+              <figure>
+                <figcaption style="color: #de037f;background: black;background-color: rgba(0, 0, 0, 0.7);
+                  font-size: 30px;
+                  font-family: serif;
+                  margin-top: 40%;">
+                  <span>Wedding</span>
+                  <br />
+                  <span>25. Nov. 2020 </span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <div>
+  </div>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="custom-navbar">
+    <a class="navbar-brand" href="#">
+      <img src="images/eeeee.png" width="70" height="70" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- <div id="menu-center"> -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" class="active"
+            href="#demo">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#about-us">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+            href="#important-people">People</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+            href="#our-portfolio">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"
+            href="#dates-section">Events</a>
+        </li>
+      </ul>
+      <!-- </div> -->
+
+      <div id="home"></div>
+      <div id="aboutus"></div>
+      <div id="people"></div>
+      <div id="portfolio"></div>
+      <div id="events"></div>
+    </div>
+  </nav>
+
+
+  <section class="colored-section" id="about-us">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <h1 style="font-family: 'Dancing Script', cursive;line-height: 1em;margin: 47px 0 -87px 0px;">About <span
+              style="color: #de037f;">Us</span> </h1>
+          <img src="images/kkkk.png" alt="">
+          <p style="margin: -67px 0 0px 0px;color: cornsilk;font-family: cursive;">Our relationship is meant to be
+            something that was written in the stars and drawn into our destiny.</p>
+        </div>
+
+      </div>
+      <br>
+      <div class="row" style="text-align: center;">
+        <div class="col-lg-6 roundCircle">
+
+          <div class="image-div">
+            <img src="images/Sama.jpg" class="rounded-circle" style="width: 100%; height: 100%;">
+          </div>
+          <br>
+
+          <h3 style="padding: 1.5%;">Shama <span style="color: cyan;">Bride</span></h3>
+          <p style="color: cornsilk;font-family: cursive;">An Enthusiastic Person, M.A from Munger</p>
+
+          <span>
+            <i class="fab fa-facebook fa-2x"></i>&nbsp;&nbsp;&nbsp;<i
+              class="fab fa-instagram fa-2x"></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-twitter fa-2x"></i></span>
+
+        </div>
+        <div class="col-lg-6">
+
+          <div class="image-div">
+            <img src="images/saheb_solo.jpg" class="rounded-circle" style="width: 97%; height: 100%;">
+          </div>
+          <br>
+
+          <h3 style="padding: 1.5%;">Shahab <span style="color: cyan;">Groom</span></h3>
+          <p style="color: cornsilk;font-family: cursive;">A Zeal by Nature, Mechanical Engineer from Patna</p>
+
+          <span><i class="fab fa-facebook fa-2x"></i>&nbsp;&nbsp;&nbsp;<i
+              class="fab fa-instagram fa-2x"></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-twitter fa-2x"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="important-people" id="important-people">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <h1 style="font-family: 'Dancing Script', cursive;line-height: 1em;margin: 47px 0 -87px 0px;"> <span
+              style="color: #de037f;">Important</span> People
+          </h1>
+          <img src="images/kkkk.png" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6" style="padding:0 70px 0 60px;">
+          <h3 style="color: darkolivegreen;">Bridemaids</h3>
+          <br>
+          <div class="row" style="display: flex;">
+            <div class="column" style="flex: 50%;padding: 5px;">
+              <img src="images/gallery/Nikki.jpg" alt="Snow" style="width:100%">
+              <!-- <p>Father</p> -->
+
+              <div class="waviy">
+                <span style="--i:1">N</span>
+                <span style="--i:2">I</span>
+                <span style="--i:3">K</span>
+                <span style="--i:4">K</span>
+                <span style="--i:5">I</span>
+
+              </div>
+
+            </div>
+            <div class="column" style="flex: 50%;padding: 5px;">
+              <img src="images/gallery/mother.jpg" alt="Forest" style="width:100%">
+              <div class="waviy">
+                <span style="--i:1">M</span>
+                <span style="--i:2">O</span>
+                <span style="--i:3">T</span>
+                <span style="--i:4">H</span>
+                <span style="--i:5">E</span>
+                <span style="--i:6">R</span>
+
+              </div>
+            </div>
+          </div>
+          <div class="row" style="display: flex;">
+            <div class="column" style="flex: 50%;padding: 5px;">
+              <img src="images/gallery/Anguri_New.jpg" alt="Mountains" style="width:100%">
+              <div class="waviy">
+                <span style="--i:1">S</span>
+                <span style="--i:2">H</span>
+                <span style="--i:3">A</span>
+                <span style="--i:4">H</span>
+                <span style="--i:5">E</span>
+                <span style="--i:6">E</span>
+                <span style="--i:7">N</span>
+                <span style="--i:7">A</span>
+              </div>
+            </div>
+            <div class="column" style="flex: 50%;padding: 5px;">
+              <img src="images/gallery/haider_bhai.jpg" alt="Snow" style="width:100%">
+              <div class="waviy">
+                <span style="--i:1">H</span>
+                <span style="--i:2">A</span>
+                <span style="--i:3">I</span>
+                <span style="--i:4">D</span>
+                <span style="--i:5">E</span>
+                <span style="--i:6">R</span>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" style="padding:0 70px 0 60px;">
+          <h3 style="color: darkolivegreen;">Groomsmen's</h3>
+          <br>
+          <div class="row" style="display: flex;">
+            <div class="column" style="flex: 50%;padding: 5px;">
+              <img src="images/gallery/rani.jpg" alt="Snow" style="width:100%">
+              <div class="waviy">
+                <span style="--i:1">F</span>
+                <span style="--i:2">A</span>
+                <span style="--i:3">R</span>
+                <span style="--i:4">H</span>
+                <span style="--i:5">A</span>
+                <span style="--i:6">T</span>
+              </div>
+            </div>
+            <div class="column" style="flex: 50%;padding: 5px;">
+              <img src="images/gallery/rani_hus.jpg" alt="Forest" style="width:100%">
+              <div class="waviy">
+                <span style="--i:1">A</span>
+                <span style="--i:2">M</span>
+                <span style="--i:3">E</span>
+                <span style="--i:4">E</span>
+                <span style="--i:5">N</span>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="display: flex;">
+            <div class="column" style="flex: 50%;padding: 5px;">
+              <img src="images/gallery/nishat.jpg" alt="Mountains" style="width:100%">
+              <div class="waviy">
+                <span style="--i:1">N</span>
+                <span style="--i:2">I</span>
+                <span style="--i:3">S</span>
+                <span style="--i:4">H</span>
+                <span style="--i:5">A</span>
+                <span style="--i:6">T</span>
+              </div>
+            </div>
+            <div class="column" style="flex: 50%;padding: 5px;">
+              <img src="images/gallery/Majhar_seth.jpg" alt="Snow" style="width:100%">
+              <div class="waviy">
+                <span style="--i:1">M</span>
+                <span style="--i:2">A</span>
+                <span style="--i:3">Z</span>
+                <span style="--i:4">H</span>
+                <span style="--i:5">A</span>
+                <span style="--i:6">R</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="count-up-people">
+
+    <div class="hero-image" style="background-image: url('images/background-image-total-people.jpg');height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; height: 300px;">
+
+      <div class="hero-text" id="count-people-1">
+        <h1><span style="color: #de037f;">100</span> </h1>
+        <p>People attended the barat</p>
+      </div>
+
+      <div class="hero-text" id="count-people-2">
+        <h1><span style="color: #de037f;">350</span> </h1>
+        <p>People attended the wedding</p>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- our Portfolio -->
+
+  <!-- <section class="our-portfolio" id="our-portfolio">
+
+    <div class="container-fluid">
+      <div class="row" style="text-align: center;">
+        <div class="col-lg-12 designer-heading">
+          <h1> <span>Our</span> Portfolio
+          </h1>
+          <img src="images/kkkk.png" alt="">
+
+          <h1 id="portfolio-special-text"> Haldi, Baraat &
+            Reception
+          </h1>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="gallery-image-container">
+      <div class="gallery-image-container-top">
+        <ul>
+          <li><a href="#img_2"><img src="images/gallery/2.jpg"></a></li>
+          <li><a href="#img_5"><img src="images/gallery/5.jpg"></a></li>
+          <li><a href="#img_7"><img src="images/gallery/7.jpg"></a></li>
+          <li><a href="#img_8"><img src="images/gallery/8.jpg"></a></li>
+          <li><a href="#img_9"><img src="images/gallery/9.jpg"></a></li>
+          <li><a href="#img_39"><img src="images/gallery/39.jpg"></a></li>
+          <li><a href="#img_13"><img src="images/gallery/13.jpg"></a></li>
+          <li><a href="#img_14"><img src="images/gallery/14.jpg"></a></li>
+          <li><a href="#img_16"><img src="images/gallery/16.jpg"></a></li>
+          <li><a href="#img_17"><img src="images/gallery/17.jpg"></a></li>
+          <li><a href="#img_19"><img src="images/gallery/19.jpg"></a></li>
+          <li><a href="#img_22"><img src="images/gallery/22.jpg"></a></li>
+          <li><a href="#img_23"><img src="images/gallery/23.jpg"></a></li>
+          <li><a href="#img_26"><img src="images/gallery/26.jpg"></a></li>
+          <li><a href="#img_27"><img src="images/gallery/27.jpg"></a></li>
+          <li><a href="#img_29"><img src="images/gallery/29.jpg"></a></li>
+          <li><a href="#img_30"><img src="images/gallery/30.jpg"></a></li>
+          <li><a href="#img_31"><img src="images/gallery/31.jpg"></a></li>
+          <li><a href="#img_34"><img src="images/gallery/34.jpg"></a></li>
+          <li><a href="#img_35"><img src="images/gallery/35.jpg"></a></li>
+          <li><a href="#img_37"><img src="images/gallery/37.jpg"></a></li>
+          <li><a href="#img_39"><img src="images/gallery/39.jpg"></a></li>
+          <li><a href="#img_41"><img src="images/gallery/41.jpg"></a></li>
+          <li><a href="#img_42"><img src="images/gallery/42.jpg"></a></li>
+          <li><a href="#img_44"><img src="images/gallery/44.jpg"></a></li>
+          <li><a href="#img_48"><img src="images/gallery/48.jpg"></a></li>
+
+        </ul>
+        <a href="#_2" class="lightbox trans" id="img_2"><img src="images/gallery/2.jpg"></a>
+        <a href="#_5" class="lightbox trans" id="img_5"><img src="images/gallery/5.jpg"></a>
+        <a href="#_7" class="lightbox trans" id="img_7"><img src="images/gallery/7.jpg"></a>
+        <a href="#_8" class="lightbox trans" id="img_8"><img src="images/gallery/8.jpg"></a>
+        <a href="#_9" class="lightbox trans" id="img_9"><img src="images/gallery/9.jpg"></a>
+        <a href="#_39" class="lightbox trans" id="img_39"><img src="images/gallery/39.jpg"></a>
+        <a href="#_13" class="lightbox trans" id="img_13"><img src="images/gallery/13.jpg"></a>
+        <a href="#_14" class="lightbox trans" id="img_14"><img src="images/gallery/14.jpg"></a>
+        <a href="#_16" class="lightbox trans" id="img_16"><img src="images/gallery/16.jpg"></a>
+        <a href="#_17" class="lightbox trans" id="img_17"><img src="images/gallery/17.jpg"></a>
+        <a href="#_19" class="lightbox trans" id="img_19"><img src="images/gallery/19.jpg"></a>
+        <a href="#_22" class="lightbox trans" id="img_22"><img src="images/gallery/22.jpg"></a>
+        <a href="#_23" class="lightbox trans" id="img_23"><img src="images/gallery/23.jpg"></a>
+        <a href="#_26" class="lightbox trans" id="img_26"><img src="images/gallery/26.jpg"></a>
+        <a href="#_27" class="lightbox trans" id="img_27"><img src="images/gallery/27.jpg"></a>
+        <a href="#_29" class="lightbox trans" id="img_29"><img src="images/gallery/29.jpg"></a>
+        <a href="#_30" class="lightbox trans" id="img_30"><img src="images/gallery/30.jpg"></a>
+        <a href="#_31" class="lightbox trans" id="img_31"><img src="images/gallery/31.jpg"></a>
+        <a href="#_34" class="lightbox trans" id="img_34"><img src="images/gallery/34.jpg"></a>
+        <a href="#_35" class="lightbox trans" id="img_35"><img src="images/gallery/35.jpg"></a>
+        <a href="#_37" class="lightbox trans" id="img_37"><img src="images/gallery/37.jpg"></a>
+        <a href="#_39" class="lightbox trans" id="img_39"><img src="images/gallery/39.jpg"></a>
+        <a href="#_41" class="lightbox trans" id="img_41"><img src="images/gallery/41.jpg"></a>
+        <a href="#_42" class="lightbox trans" id="img_42"><img src="images/gallery/42.jpg"></a>
+        <a href="#_44" class="lightbox trans" id="img_44"><img src="images/gallery/44.jpg"></a>
+        <a href="#_48" class="lightbox trans" id="img_48"><img src="images/gallery/48.jpg"></a>
+
+      </div>
+    </div>
+    </div>
+  </section> -->
+
+  <section class="our-portfolio" id="our-portfolio">
+
+    <div class="container-fluid">
+      <div class="row" style="text-align: center;">
+        <div class="col-lg-12 designer-heading">
+          <h1> <span>Our</span> Portfolio
+          </h1>
+          <img src="images/kkkk.png" alt="">
+
+          <h1 id="portfolio-special-text"> Haldi, Baraat &
+            Reception
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- new section of gallery -->
+
+  <section class="our-portfolio-magnific" id="our-portfolio">
+    <div class="container">
+
+      <div class="gallery_magnific">
+        <ul class="list-inline">
+          <li class="list-inline-item active" data-filter="all">
+            <button class="btn btn-outline-dark" style="background-color: #ff0080;color: white;">All</button>
+          </li>
+          <li class="list-inline-item" data-filter="haldi">
+            <button class="btn btn-outline-dark" style="background-color: #ff6539;color: #fff;">Haldi</button>
+          </li>
+          <li class="list-inline-item" data-filter="reception">
+            <button class="btn btn-outline-dark" style="background-color: #c5a856;color: #fff;">Reception</button>
+          </li>
+          <li class="list-inline-item" data-filter="couple">
+            <button class="btn btn-outline-dark" style="background-color: #62d3b3;color: #fff;">Couple</button>
+          </li>
+        </ul>
+
+        <div class="items-container_magnific">
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/1.jpg">
+              <img src="images/gallery/1.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/2.jpg">
+              <img src="images/gallery/2.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/3.png">
+              <img src="images/gallery/3.png" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/4.jpg">
+              <img src="images/gallery/4.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/5.jpg">
+              <img src="images/gallery/5.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/7.jpg">
+              <img src="images/gallery/7.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/8.jpg">
+              <img src="images/gallery/8.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/9.jpg">
+              <img src="images/gallery/9.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/10.jpg">
+              <img src="images/gallery/10.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/11.jpg">
+              <img src="images/gallery/11.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/13.jpg">
+              <img src="images/gallery/13.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+
+
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/19.jpg">
+              <img src="images/gallery/19.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/20.jpg">
+              <img src="images/gallery/20.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/22.jpg">
+              <img src="images/gallery/22.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/23.jpg">
+              <img src="images/gallery/23.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/24.jpg">
+              <img src="images/gallery/24.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/26.jpg">
+              <img src="images/gallery/26.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/27.jpg">
+              <img src="images/gallery/27.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/28.jpg">
+              <img src="images/gallery/28.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/29.jpg">
+              <img src="images/gallery/29.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/30.jpg">
+              <img src="images/gallery/30.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/31.jpg">
+              <img src="images/gallery/31.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/33.jpg">
+              <img src="images/gallery/33.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/34.jpg">
+              <img src="images/gallery/34.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/35.jpg">
+              <img src="images/gallery/35.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/36.jpg">
+              <img src="images/gallery/36.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/37.jpg">
+              <img src="images/gallery/37.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/38.jpg">
+              <img src="images/gallery/38.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/39.jpg">
+              <img src="images/gallery/39.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/40.jpg">
+              <img src="images/gallery/40.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/41.jpg">
+              <img src="images/gallery/41.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/42.jpg">
+              <img src="images/gallery/42.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/43.jpg">
+              <img src="images/gallery/43.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/44.jpg">
+              <img src="images/gallery/44.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/45.jpg">
+              <img src="images/gallery/45.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/46.jpg">
+              <img src="images/gallery/46.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/47.jpg">
+              <img src="images/gallery/47.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/48.jpg">
+              <img src="images/gallery/48.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/49.jpg">
+              <img src="images/gallery/49.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/60.jpg">
+              <img src="images/gallery/60.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/61.jpg">
+              <img src="images/gallery/61.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/62.jpg">
+              <img src="images/gallery/62.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/63.jpg">
+              <img src="images/gallery/63.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/64.jpg">
+              <img src="images/gallery/64.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific reception">
+            <a href="images/gallery/65.jpg">
+              <img src="images/gallery/65.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific haldi">
+            <a href="images/Haldi/14.jpg">
+              <img src="images/Haldi/14.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific haldi">
+            <a href="images/Haldi/16.jpg">
+              <img src="images/Haldi/16.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+          <div class="items_magnific haldi">
+            <a href="images/Haldi/17.jpg">
+              <img src="images/Haldi/17.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+
+
+          <div class="items_magnific couple">
+            <a href="images/Bride/1.jpg">
+              <img src="images/Bride/1.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+          <div class="items_magnific couple">
+            <a href="images/Bride/2.jpg">
+              <img src="images/Bride/2.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/3.jpg">
+              <img src="images/Bride/3.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/4.jpg">
+              <img src="images/Bride/4.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/5.jpg">
+              <img src="images/Bride/5.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/6.jpg">
+              <img src="images/Bride/6.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/7.jpg">
+              <img src="images/Bride/7.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/8.jpg">
+              <img src="images/Bride/8.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/9.jpg">
+              <img src="images/Bride/9.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/10.jpg">
+              <img src="images/Bride/10.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/11.jpg">
+              <img src="images/Bride/11.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/12.jpg">
+              <img src="images/Bride/12.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/13.jpg">
+              <img src="images/Bride/13.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/14.jpg">
+              <img src="images/Bride/14.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/15.jpg">
+              <img src="images/Bride/15.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/16.jpg">
+              <img src="images/Bride/16.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/17.jpg">
+              <img src="images/Bride/17.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/18.jpg">
+              <img src="images/Bride/18.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/19.jpg">
+              <img src="images/Bride/19.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/20.jpg">
+              <img src="images/Bride/20.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/21.jpg">
+              <img src="images/Bride/21.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/22.jpg">
+              <img src="images/Bride/22.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/23.jpg">
+              <img src="images/Bride/23.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/24.jpg">
+              <img src="images/Bride/24.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/25.jpg">
+              <img src="images/Bride/25.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/26.jpg">
+              <img src="images/Bride/26.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/27.jpg">
+              <img src="images/Bride/27.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/28.jpg">
+              <img src="images/Bride/28.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/29.jpg">
+              <img src="images/Bride/29.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/30.jpg">
+              <img src="images/Bride/30.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/31.jpg">
+              <img src="images/Bride/31.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+          <div class="items_magnific couple">
+            <a href="images/Bride/32.jpg">
+              <img src="images/Bride/32.jpg" alt="mobile1.jpg">
+            </a>
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- end of our Portfolio -->
+  <section class="dates-section" id="dates-section" style="background-color: #ff4c68;width: 100%;
+  height: 100%;
+  margin: 40px 0 0 0;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <h1 style="font-family: 'Dancing Script', cursive;line-height: 1em;margin: 47px 0 -87px 0px;"> <span
+              style="color: revert;">E</span><span style="color: floralwhite;">vent Dates</span>
+          </h1>
+          <img src="images/kkkk.png" alt="">
+        </div>
+
+        <div class="center-outer">
+          <div class="center-inner">
+
+            <div class="bubbles">
+
+              <table class="table table-borderless"
+                style="margin-top: -22%;font-size: 165%;border: 2px dotted springgreen;">
+                <tbody>
+                  <tr style="text-align: left;color: wheat;font-family: cursive;">
+                    <th scope="row" style="font-size: 23px;">i)</th>
+                    <td style="font-size: 23px;">Haldi</td>
+                    <td style="font-size: 23px;">24. Nov. 2020</td>
+                  </tr>
+                  <tr style="text-align: left;color: wheat;font-family: cursive;">
+                    <th scope="row" style="font-size: 23px;">ii)</th>
+                    <td style="font-size: 23px;">Baraat</td>
+                    <td style="font-size: 23px;">25. Nov. 2020</td>
+                  </tr>
+                  <tr style="text-align: left;color: wheat;font-family: cursive;">
+                    <th scope="row" style="font-size: 23px;">iii)</th>
+                    <td style="font-size: 23px;">Reception</td>
+                    <td style="font-size: 23px;">28. Nov. 2020</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="padding: 5%;color: cornsilk;justify-content: center;">
+        <div class="shining-effect">
+          <h6><span class="far fa-heart"></span>&nbsp;Found the True Love</h6>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2020 Zakaria</p>
+    </div>
+  </footer>
+
+
+  <!-- JQuery JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Magnific Popup JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".list-inline-item").click(function () {
+
+        let value = $(this).attr("data-filter");
+
+        if (value == "all") {
+          $(".items_magnific").show(1000);
+        } else {
+          $(".items_magnific").not("." + value).hide(1000);
+          $(".items_magnific").filter("." + value).show(1000);
+        }
+
+        $(".list-inline-item").removeClass("active");
+        $(this).addClass("active");
+      });
+
+
+      $('.items-container_magnific').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        // other options
+
+        gallery: {
+          enabled: true, // set to true to enable gallery
+
+          preload: [0, 2], // read about this option in next Lazy-loading section
+
+          navigateByImgClick: true,
+
+          arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+
+          tPrev: 'Previous (Left arrow key)', // title for left button
+          tNext: 'Next (Right arrow key)', // title for right button
+          tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+        },
+
+        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+        zoom: {
+          enabled: true, // By default it's false, so don't forget to enable it
+
+          duration: 300, // duration of the effect, in milliseconds
+          easing: 'ease-in-out', // CSS transition easing function
+
+          // The "opener" function should return the element from which popup will be zoomed in
+          // and to which popup will be scaled down
+          // By defailt it looks for an image tag:
+          opener: function (openerElement) {
+            // openerElement is the element on which popup was initialized, in this case its <a> tag
+            // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+            return openerElement.is('img') ? openerElement : openerElement.find('img');
+          }
+        }
+      });
+    });
+  </script>
+
+  <!-- script for scroll active change -->
+  <script>
+    $(document).ready(function () {
+      $(document).on("scroll", onScroll);
+
+      //smoothscroll
+      $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $(document).off("scroll");
+
+        $('a').each(function () {
+          $(this).removeClass('active');
+        })
+        $(this).addClass('active');
+
+        var target = this.hash,
+          menu = target;
+        $target = $(target);
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top + 2
+        }, 500, 'swing', function () {
+          window.location.hash = target;
+          $(document).on("scroll", onScroll);
+        });
+      });
+    });
+
+    function onScroll(event) {
+      var scrollPos = $(document).scrollTop();
+      $('.navbar-collapse a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() >
+          scrollPos) {
+          $('.navbar-collapse ul li a').removeClass("active");
+          currLink.addClass("active");
+        } else {
+          currLink.removeClass("active");
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
