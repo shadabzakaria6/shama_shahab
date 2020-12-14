@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
 
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,8 +19,9 @@
 
   <!-- Magnific Popup CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/styles.css">
+
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -37,61 +37,6 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
-  <style>
-    .items-container_magnific {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    .items_magnific {
-      position: relative;
-      width: 300px;
-      height: 300px;
-      margin: 5px;
-
-    }
-
-    .items_magnific img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-
-    /* waivy text style */
-    .waviy {
-      position: relative;
-    }
-
-    .waviy span {
-      position: relative;
-      display: inline-block;
-      text-transform: uppercase;
-      font-size: 13px;
-      font-family: monospace;
-      color: #8e516f;
-      background-color: #fff;
-      /* text-transform: uppercase; */
-      animation: flip 2s infinite;
-      animation-delay: calc(.2s * var(--i))
-    }
-
-    @keyframes flip {
-
-      0%,
-      80% {
-        transform: rotateY(360deg)
-      }
-    }
-
-    /* end waivy text style  */
-  </style>
-
 
   <title>Love</title>
   <!-- add icon link -->
@@ -116,13 +61,6 @@
         <div class="carousel-caption">
           <div class="row">
             <div class="col-lg-12">
-              <!-- <h1 style="font-family: 'Dancing Script', cursive;line-height: 1em;"><span
-                  style="color: black;">W</span>edding </h1>
-              <h1 style="font-family: 'Dancing Script', cursive;line-height: 1em;color: black;" id="carousel-date">25. Nov. 2020</h1> -->
-              <!-- <img src="images/flouring-swirls-ornament-decoration.png" alt=""> -->
-              <!-- <img src="images/design-12.png" id="testdesign" alt="" style="width: 322px;
-              height: 170px;
-              margin-top: -130px;"> -->
 
               <figure>
                 <figcaption style="color: #de037f;background: black;background-color: rgba(0, 0, 0, 0.7);
@@ -289,7 +227,7 @@
 
   <section class="important-people" id="important-people">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" style="margin: -8% 0 0 0;">
         <div class="col-lg-12" style="text-align: center;">
           <h1 style="font-family: 'Dancing Script', cursive;line-height: 1em;margin: 47px 0 -87px 0px;"> <span
               style="color: #de037f;">Important</span> People
@@ -297,7 +235,7 @@
           <img src="images/kkkk.png" alt="">
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="margin: -8% 0 0 0;">
         <div class="col-lg-6" style="padding:0 70px 0 60px;">
           <h3 style="color: darkolivegreen;">Bridemaids</h3>
           <br>
@@ -439,650 +377,583 @@
   </section>
 
 
-  <!-- our Portfolio -->
-
-  <!-- <section class="our-portfolio" id="our-portfolio">
-
-    <div class="container-fluid">
-      <div class="row" style="text-align: center;">
-        <div class="col-lg-12 designer-heading">
-          <h1> <span>Our</span> Portfolio
-          </h1>
-          <img src="images/kkkk.png" alt="">
-
-          <h1 id="portfolio-special-text"> Haldi, Baraat &
-            Reception
-          </h1>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="gallery-image-container">
-      <div class="gallery-image-container-top">
-        <ul>
-          <li><a href="#img_2"><img src="images/gallery/2.jpg"></a></li>
-          <li><a href="#img_5"><img src="images/gallery/5.jpg"></a></li>
-          <li><a href="#img_7"><img src="images/gallery/7.jpg"></a></li>
-          <li><a href="#img_8"><img src="images/gallery/8.jpg"></a></li>
-          <li><a href="#img_9"><img src="images/gallery/9.jpg"></a></li>
-          <li><a href="#img_39"><img src="images/gallery/39.jpg"></a></li>
-          <li><a href="#img_13"><img src="images/gallery/13.jpg"></a></li>
-          <li><a href="#img_14"><img src="images/gallery/14.jpg"></a></li>
-          <li><a href="#img_16"><img src="images/gallery/16.jpg"></a></li>
-          <li><a href="#img_17"><img src="images/gallery/17.jpg"></a></li>
-          <li><a href="#img_19"><img src="images/gallery/19.jpg"></a></li>
-          <li><a href="#img_22"><img src="images/gallery/22.jpg"></a></li>
-          <li><a href="#img_23"><img src="images/gallery/23.jpg"></a></li>
-          <li><a href="#img_26"><img src="images/gallery/26.jpg"></a></li>
-          <li><a href="#img_27"><img src="images/gallery/27.jpg"></a></li>
-          <li><a href="#img_29"><img src="images/gallery/29.jpg"></a></li>
-          <li><a href="#img_30"><img src="images/gallery/30.jpg"></a></li>
-          <li><a href="#img_31"><img src="images/gallery/31.jpg"></a></li>
-          <li><a href="#img_34"><img src="images/gallery/34.jpg"></a></li>
-          <li><a href="#img_35"><img src="images/gallery/35.jpg"></a></li>
-          <li><a href="#img_37"><img src="images/gallery/37.jpg"></a></li>
-          <li><a href="#img_39"><img src="images/gallery/39.jpg"></a></li>
-          <li><a href="#img_41"><img src="images/gallery/41.jpg"></a></li>
-          <li><a href="#img_42"><img src="images/gallery/42.jpg"></a></li>
-          <li><a href="#img_44"><img src="images/gallery/44.jpg"></a></li>
-          <li><a href="#img_48"><img src="images/gallery/48.jpg"></a></li>
-
-        </ul>
-        <a href="#_2" class="lightbox trans" id="img_2"><img src="images/gallery/2.jpg"></a>
-        <a href="#_5" class="lightbox trans" id="img_5"><img src="images/gallery/5.jpg"></a>
-        <a href="#_7" class="lightbox trans" id="img_7"><img src="images/gallery/7.jpg"></a>
-        <a href="#_8" class="lightbox trans" id="img_8"><img src="images/gallery/8.jpg"></a>
-        <a href="#_9" class="lightbox trans" id="img_9"><img src="images/gallery/9.jpg"></a>
-        <a href="#_39" class="lightbox trans" id="img_39"><img src="images/gallery/39.jpg"></a>
-        <a href="#_13" class="lightbox trans" id="img_13"><img src="images/gallery/13.jpg"></a>
-        <a href="#_14" class="lightbox trans" id="img_14"><img src="images/gallery/14.jpg"></a>
-        <a href="#_16" class="lightbox trans" id="img_16"><img src="images/gallery/16.jpg"></a>
-        <a href="#_17" class="lightbox trans" id="img_17"><img src="images/gallery/17.jpg"></a>
-        <a href="#_19" class="lightbox trans" id="img_19"><img src="images/gallery/19.jpg"></a>
-        <a href="#_22" class="lightbox trans" id="img_22"><img src="images/gallery/22.jpg"></a>
-        <a href="#_23" class="lightbox trans" id="img_23"><img src="images/gallery/23.jpg"></a>
-        <a href="#_26" class="lightbox trans" id="img_26"><img src="images/gallery/26.jpg"></a>
-        <a href="#_27" class="lightbox trans" id="img_27"><img src="images/gallery/27.jpg"></a>
-        <a href="#_29" class="lightbox trans" id="img_29"><img src="images/gallery/29.jpg"></a>
-        <a href="#_30" class="lightbox trans" id="img_30"><img src="images/gallery/30.jpg"></a>
-        <a href="#_31" class="lightbox trans" id="img_31"><img src="images/gallery/31.jpg"></a>
-        <a href="#_34" class="lightbox trans" id="img_34"><img src="images/gallery/34.jpg"></a>
-        <a href="#_35" class="lightbox trans" id="img_35"><img src="images/gallery/35.jpg"></a>
-        <a href="#_37" class="lightbox trans" id="img_37"><img src="images/gallery/37.jpg"></a>
-        <a href="#_39" class="lightbox trans" id="img_39"><img src="images/gallery/39.jpg"></a>
-        <a href="#_41" class="lightbox trans" id="img_41"><img src="images/gallery/41.jpg"></a>
-        <a href="#_42" class="lightbox trans" id="img_42"><img src="images/gallery/42.jpg"></a>
-        <a href="#_44" class="lightbox trans" id="img_44"><img src="images/gallery/44.jpg"></a>
-        <a href="#_48" class="lightbox trans" id="img_48"><img src="images/gallery/48.jpg"></a>
-
-      </div>
-    </div>
-    </div>
-  </section> -->
-
   <section class="our-portfolio" id="our-portfolio">
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row" style="text-align: center;">
         <div class="col-lg-12 designer-heading">
           <h1> <span>Our</span> Portfolio
           </h1>
           <img src="images/kkkk.png" alt="">
 
-          <h1 id="portfolio-special-text"> Haldi, Baraat &
+          <!-- <h1 id="portfolio-special-text"> Haldi, Baraat &
             Reception
-          </h1>
+          </h1> -->
+          <div class="gallery_magnific" style="margin: -8% 0 0 0;">
+            <ul class="list-inline">
+              <li class="list-inline-item active" data-filter="all">
+                <button class="btn" style="background-color: #ff0080;color: white;font-family: monospace;">All</button>
+              </li>
+              <li class="list-inline-item" data-filter="haldi">
+                <button class="btn" style="background-color: #ff6539;color: #fff;font-family: monospace;">Haldi</button>
+              </li>
+              <li class="list-inline-item" data-filter="reception">
+                <button class="btn"
+                  style="background-color: #c5a856;color: #fff;font-family: monospace;">Reception</button>
+              </li>
+              <li class="list-inline-item" data-filter="couple">
+                <button class="btn"
+                  style="background-color: #62d3b3;color: #fff;font-family: monospace;">Couple</button>
+              </li>
+            </ul>
+
+            <div class="items-container_magnific">
+
+              <div class="items_magnific reception">
+                  <a href="images/gallery/2.jpg">
+                      <img src="images/gallery/2.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/4.jpg">
+                      <img src="images/Bride/4.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific haldi">
+                  <a href="images/Haldi/14.jpg">
+                      <img src="images/Haldi/14.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/28.jpg">
+                      <img src="images/Bride/28.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/3.png">
+                      <img src="images/gallery/3.png" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/4.jpg">
+                      <img src="images/gallery/4.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/32.jpg">
+                      <img class="spinner" src="images/Bride/32.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/1.jpg">
+                      <img src="images/gallery/1.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/30.jpg">
+                      <img class="spinner" src="images/Bride/30.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific haldi">
+                  <a href="images/Haldi/16.jpg">
+                      <img src="images/Haldi/16.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/5.jpg">
+                      <img src="images/gallery/5.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/5.jpg">
+                      <img src="images/Bride/5.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/7.jpg">
+                      <img src="images/gallery/7.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/23.jpg">
+                      <img src="images/Bride/23.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/24.jpg">
+                      <img src="images/Bride/24.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/8.jpg">
+                      <img src="images/gallery/8.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/25.jpg">
+                      <img src="images/Bride/25.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/9.jpg">
+                      <img src="images/gallery/9.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/10.jpg">
+                      <img src="images/gallery/10.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/11.jpg">
+                      <img src="images/gallery/11.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/19.jpg">
+                      <img src="images/gallery/19.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/20.jpg">
+                      <img src="images/gallery/20.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/7.jpg">
+                      <img src="images/Bride/7.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/8.jpg">
+                      <img src="images/Bride/8.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/9.jpg">
+                      <img src="images/Bride/9.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/22.jpg">
+                      <img src="images/gallery/22.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/23.jpg">
+                      <img src="images/gallery/23.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/24.jpg">
+                      <img src="images/gallery/24.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/26.jpg">
+                      <img src="images/gallery/26.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/27.jpg">
+                      <img src="images/gallery/27.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/28.jpg">
+                      <img src="images/gallery/28.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/29.jpg">
+                      <img src="images/gallery/29.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/15.jpg">
+                      <img src="images/Bride/15.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/16.jpg">
+                      <img src="images/Bride/16.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/30.jpg">
+                      <img src="images/gallery/30.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/31.jpg">
+                      <img src="images/gallery/31.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/33.jpg">
+                      <img src="images/gallery/33.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/34.jpg">
+                      <img src="images/gallery/34.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/10.jpg">
+                      <img src="images/Bride/10.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/11.jpg">
+                      <img src="images/Bride/11.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/35.jpg">
+                      <img src="images/gallery/35.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/36.jpg">
+                      <img src="images/gallery/36.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/37.jpg">
+                      <img src="images/gallery/37.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/13.jpg">
+                      <img src="images/Bride/13.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/14.jpg">
+                      <img src="images/Bride/14.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/38.jpg">
+                      <img src="images/gallery/38.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/39.jpg">
+                      <img src="images/gallery/39.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/40.jpg">
+                      <img src="images/gallery/40.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/41.jpg">
+                      <img src="images/gallery/41.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/17.jpg">
+                      <img src="images/Bride/17.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/42.jpg">
+                      <img src="images/gallery/42.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/18.jpg">
+                      <img src="images/Bride/18.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/43.jpg">
+                      <img src="images/gallery/43.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/44.jpg">
+                      <img src="images/gallery/44.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/45.jpg">
+                      <img src="images/gallery/45.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/46.jpg">
+                      <img src="images/gallery/46.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/22.jpg">
+                      <img src="images/Bride/22.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/26.jpg">
+                      <img src="images/Bride/26.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/27.jpg">
+                      <img src="images/Bride/27.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/47.jpg">
+                      <img src="images/gallery/47.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+          
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/61.jpg">
+                      <img src="images/gallery/61.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/62.jpg">
+                      <img src="images/gallery/62.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/63.jpg">
+                      <img src="images/gallery/63.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/64.jpg">
+                      <img src="images/gallery/64.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/65.jpg">
+                      <img src="images/gallery/65.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific haldi">
+                  <a href="images/Haldi/17.jpg">
+                      <img src="images/Haldi/17.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+          
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/1.jpg">
+                      <img src="images/Bride/1.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/2.jpg">
+                      <img src="images/Bride/2.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/3.jpg">
+                      <img src="images/Bride/3.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/13.jpg">
+                      <img src="images/gallery/13.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/6.jpg">
+                      <img src="images/Bride/6.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/12.jpg">
+                      <img src="images/Bride/12.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/19.jpg">
+                      <img src="images/Bride/19.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+              <div class="items_magnific couple">
+                  <a href="images/Bride/20.jpg">
+                      <img src="images/Bride/20.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/48.jpg">
+                      <img src="images/gallery/48.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/49.jpg">
+                      <img src="images/gallery/49.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          
+              <div class="items_magnific reception">
+                  <a href="images/gallery/60.jpg">
+                      <img src="images/gallery/60.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/21.jpg">
+                      <img src="images/Bride/21.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/29.jpg">
+                      <img class="spinner" src="images/Bride/29.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+              <div class="items_magnific couple">
+                  <a href="images/Bride/31.jpg">
+                      <img class="spinner" src="images/Bride/31.jpg" alt="mobile1.jpg">
+                  </a>
+              </div>
+          
+          </div>
+
+          </div>
+
         </div>
       </div>
     </div>
   </section>
   <!-- new section of gallery -->
 
-  <section class="our-portfolio-magnific" id="our-portfolio">
+  <!-- <section class="our-portfolio-magnific" id="our-portfolio">
     <div class="container">
 
-      <div class="gallery_magnific">
-        <ul class="list-inline">
-          <li class="list-inline-item active" data-filter="all">
-            <button class="btn btn-outline-dark" style="background-color: #ff0080;color: white;">All</button>
-          </li>
-          <li class="list-inline-item" data-filter="haldi">
-            <button class="btn btn-outline-dark" style="background-color: #ff6539;color: #fff;">Haldi</button>
-          </li>
-          <li class="list-inline-item" data-filter="reception">
-            <button class="btn btn-outline-dark" style="background-color: #c5a856;color: #fff;">Reception</button>
-          </li>
-          <li class="list-inline-item" data-filter="couple">
-            <button class="btn btn-outline-dark" style="background-color: #62d3b3;color: #fff;">Couple</button>
-          </li>
-        </ul>
-
-        <div class="items-container_magnific">
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/1.jpg">
-              <img src="images/gallery/1.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/2.jpg">
-              <img src="images/gallery/2.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/3.png">
-              <img src="images/gallery/3.png" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/4.jpg">
-              <img src="images/gallery/4.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/5.jpg">
-              <img src="images/gallery/5.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/7.jpg">
-              <img src="images/gallery/7.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/8.jpg">
-              <img src="images/gallery/8.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/9.jpg">
-              <img src="images/gallery/9.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/10.jpg">
-              <img src="images/gallery/10.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/11.jpg">
-              <img src="images/gallery/11.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/13.jpg">
-              <img src="images/gallery/13.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-
-
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/19.jpg">
-              <img src="images/gallery/19.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/20.jpg">
-              <img src="images/gallery/20.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/22.jpg">
-              <img src="images/gallery/22.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/23.jpg">
-              <img src="images/gallery/23.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/24.jpg">
-              <img src="images/gallery/24.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/26.jpg">
-              <img src="images/gallery/26.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/27.jpg">
-              <img src="images/gallery/27.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/28.jpg">
-              <img src="images/gallery/28.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/29.jpg">
-              <img src="images/gallery/29.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/30.jpg">
-              <img src="images/gallery/30.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/31.jpg">
-              <img src="images/gallery/31.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/33.jpg">
-              <img src="images/gallery/33.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/34.jpg">
-              <img src="images/gallery/34.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/35.jpg">
-              <img src="images/gallery/35.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/36.jpg">
-              <img src="images/gallery/36.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/37.jpg">
-              <img src="images/gallery/37.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/38.jpg">
-              <img src="images/gallery/38.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/39.jpg">
-              <img src="images/gallery/39.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/40.jpg">
-              <img src="images/gallery/40.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/41.jpg">
-              <img src="images/gallery/41.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/42.jpg">
-              <img src="images/gallery/42.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/43.jpg">
-              <img src="images/gallery/43.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/44.jpg">
-              <img src="images/gallery/44.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/45.jpg">
-              <img src="images/gallery/45.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/46.jpg">
-              <img src="images/gallery/46.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/47.jpg">
-              <img src="images/gallery/47.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/48.jpg">
-              <img src="images/gallery/48.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/49.jpg">
-              <img src="images/gallery/49.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/60.jpg">
-              <img src="images/gallery/60.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/61.jpg">
-              <img src="images/gallery/61.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/62.jpg">
-              <img src="images/gallery/62.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/63.jpg">
-              <img src="images/gallery/63.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/64.jpg">
-              <img src="images/gallery/64.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific reception">
-            <a href="images/gallery/65.jpg">
-              <img src="images/gallery/65.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific haldi">
-            <a href="images/Haldi/14.jpg">
-              <img src="images/Haldi/14.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific haldi">
-            <a href="images/Haldi/16.jpg">
-              <img src="images/Haldi/16.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-          <div class="items_magnific haldi">
-            <a href="images/Haldi/17.jpg">
-              <img src="images/Haldi/17.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-
-
-          <div class="items_magnific couple">
-            <a href="images/Bride/1.jpg">
-              <img src="images/Bride/1.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-          <div class="items_magnific couple">
-            <a href="images/Bride/2.jpg">
-              <img src="images/Bride/2.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/3.jpg">
-              <img src="images/Bride/3.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/4.jpg">
-              <img src="images/Bride/4.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/5.jpg">
-              <img src="images/Bride/5.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/6.jpg">
-              <img src="images/Bride/6.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/7.jpg">
-              <img src="images/Bride/7.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/8.jpg">
-              <img src="images/Bride/8.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/9.jpg">
-              <img src="images/Bride/9.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/10.jpg">
-              <img src="images/Bride/10.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/11.jpg">
-              <img src="images/Bride/11.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/12.jpg">
-              <img src="images/Bride/12.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/13.jpg">
-              <img src="images/Bride/13.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/14.jpg">
-              <img src="images/Bride/14.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/15.jpg">
-              <img src="images/Bride/15.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/16.jpg">
-              <img src="images/Bride/16.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/17.jpg">
-              <img src="images/Bride/17.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/18.jpg">
-              <img src="images/Bride/18.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/19.jpg">
-              <img src="images/Bride/19.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/20.jpg">
-              <img src="images/Bride/20.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/21.jpg">
-              <img src="images/Bride/21.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/22.jpg">
-              <img src="images/Bride/22.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/23.jpg">
-              <img src="images/Bride/23.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/24.jpg">
-              <img src="images/Bride/24.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/25.jpg">
-              <img src="images/Bride/25.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/26.jpg">
-              <img src="images/Bride/26.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/27.jpg">
-              <img src="images/Bride/27.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/28.jpg">
-              <img src="images/Bride/28.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/29.jpg">
-              <img src="images/Bride/29.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/30.jpg">
-              <img src="images/Bride/30.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/31.jpg">
-              <img src="images/Bride/31.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-          <div class="items_magnific couple">
-            <a href="images/Bride/32.jpg">
-              <img src="images/Bride/32.jpg" alt="mobile1.jpg">
-            </a>
-          </div>
-
-
-
-
-
-
-
-
-        </div>
-      </div>
+      
 
     </div>
-  </section>
+  </section> -->
 
 
   <!-- end of our Portfolio -->
   <section class="dates-section" id="dates-section" style="background-color: #ff4c68;width: 100%;
   height: 100%;
-  margin: 40px 0 0 0;">
+  margin: 62px 0 0 0;">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12" style="text-align: center;">
