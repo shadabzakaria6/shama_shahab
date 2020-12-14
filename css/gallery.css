@@ -161,3 +161,55 @@
     
 }
 
+
+.items-container_magnific {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .items_magnific {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+
+  }
+
+  .items_magnific img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* waivy text style */
+  .waviy {
+    position: relative;
+  }
+
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: monospace;
+    color: #8e516f;
+    background-color: #fff;
+    /* text-transform: uppercase; */
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+
+  @keyframes flip {
+
+    0%,
+    80% {
+      transform: rotateY(360deg)
+    }
+  }
+
+  /* end waivy text style  */
